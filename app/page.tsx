@@ -9,14 +9,12 @@ import { PromoSection } from "@/components/promo-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { Loader } from "@/components/loader"
-import { CustomCursor } from "@/components/custom-cursor"
 import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
     <>
       <Loader />
-      <CustomCursor />
       <main className="custom-cursor">
         <Navbar />
         <HeroSection />
